@@ -6,9 +6,9 @@ namespace coup{
     class Player{
         protected:
             Game game;
-            int _coins;
+            int currentMoney;
             string name;
-            string _role;
+            string currentRole;
 
 
         public:
